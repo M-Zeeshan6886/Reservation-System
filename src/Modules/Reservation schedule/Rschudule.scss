@@ -1,0 +1,28 @@
+@import "../../Sass/mixin";
+@import "../../Sass/variables";
+
+.page-container {
+  width: 100%;
+  height: auto;
+//   padding: 0.5rem 0rem;
+//   background-color: plum;
+  &-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    // padding: 0.5rem 0rem;
+    // background-color: lightblue;
+    &-left {
+      width: 20%;
+      height: auto;
+    //   padding: 0.5rem 0rem;
+    //   background-color: lightgreen;
+    }
+    &-right {
+      width: 80%;
+      height: auto;
+      padding: 0.5rem 0rem;
+      background-color: lightsalmon;
+    }
+  }
+}
