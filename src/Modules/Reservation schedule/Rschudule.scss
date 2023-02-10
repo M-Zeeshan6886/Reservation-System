@@ -175,6 +175,36 @@
             }
           }
         }
+        &-row2{
+          width: 100%;
+          height: auto;
+          padding: .5rem 0rem;
+          background-color: palevioletred;
+          &-content{
+            width: 100%;
+            height: auto;
+            padding: .5rem 0rem;
+            background-color: lightcyan;
+            &>table{
+              width: 100%;
+              background-color: palegoldenrod;
+              &>thead{
+               background-color: #f5ceff;
+                &>th{
+                  // display: flex;
+                  // flex-direction: row;
+                  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 1.4rem;
+line-height: 21px;  
+color: #635C5C;
+                  background-color: aqua;
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -195,4 +225,14 @@
   margin-left: 1rem;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.th-arrow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &>img{
+    width: 5%;
+    margin-left: 1rem;
+  }
 }

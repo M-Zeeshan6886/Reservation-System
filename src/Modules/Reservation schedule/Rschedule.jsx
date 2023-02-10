@@ -7,6 +7,7 @@ import proficon from "../../assets/HomeAssets/proficon.png";
 import calender from "../../assets/HomeAssets/calendar.png";
 import UserAdd from "../../assets/HomeAssets/userAdd.png";
 import plus from "../../assets/HomeAssets/plus.png";
+import arrowRight from "../../assets/HomeAssets/arrowright.png";
 const Rschedule = () => {
   return (
     <>
@@ -49,7 +50,28 @@ const Rschedule = () => {
                   </div>
                 </div>
               </div>
-              <div className="page-container-content-right-content-row2"></div>
+              <div className="page-container-content-right-content-row2">
+                <div className="page-container-content-right-content-row2-content">
+                  <table>
+                    <thead>
+                      <th>9:00 - 9:30 AM</th>
+                      <th>9:30 - 10:00 AM</th>
+                      <th>10:00 - 10:30 AM</th>
+                      <th>10:30 - 11:00 AM</th>
+                      <th>11:00 - 11:30 AM</th>
+                      <th>11:30 - 12:00 AM</th>
+                      <th className="th-arrow">12:00 - 12:30 AM
+                        <img src={arrowRight} alt="arrow" />
+                      </th>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
               <div className="page-container-content-right-content-row3"></div>
               <div className="page-container-content-right-content-row4"></div>
             </div>
