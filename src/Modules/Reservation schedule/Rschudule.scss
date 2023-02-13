@@ -186,10 +186,13 @@
             padding: .5rem 0rem;
             background-color: lightcyan;
             &>table{
-              width: 100%;
+              width: 99%;
+              
+                // border: 1px solid lightgrey;
+                border-collapse: collapse;
               // background-color: palegoldenrod;
               &>thead{
-              //  background-color: #f5ceff;
+                //  background-color: #f5ceff;
                 &>th{
                   // display: flex;
                   // flex-direction: row;
@@ -203,7 +206,6 @@ color: #635C5C;
                 }
               }
               &>tbody{
-                border: 1px solid lightgrey;
                 &>tr{
                   &>td{
                     padding: 1rem .5rem;
@@ -264,5 +266,9 @@ border: 1px solid #E5E5E5;
 }
 .td-lightblue{
   background: #CCF6FF;
+border: 1px solid #E5E5E5;
+}
+.td-Empty{
+  background: #FAFAFA;
 border: 1px solid #E5E5E5;
 }

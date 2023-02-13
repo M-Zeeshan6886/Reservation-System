@@ -99,6 +99,43 @@ const Rschedule = () => {
                           <p>People:4</p>
                         </td>
                       </tr>
+                      <tr>
+                        <td className="td-lightyallow">
+                          <p>Bella</p>
+                          <p>People:4</p>
+                        </td>
+                        <td className="td-Empty"></td>
+                        <td className="td-pink">
+                          <p>Bella</p>
+                          <p>People:4</p>
+                        </td>
+                        <td className="td-Empty"></td>
+                        <td className="td-Empty"></td>
+                        <td className="td-lightblue">
+                          <p>Bella</p>
+                          <p>People:4</p>
+                        </td>
+                        <td className="td-lightblue">
+                          <p>Bella</p>
+                          <p>People:4</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className="td-Empty"></td>
+                        <td className="td-Empty"></td>
+
+                        <td className="td-lightyallow">
+                          <p>Bella</p>
+                          <p>People:4</p>
+                        </td>
+                        <td className="td-Empty"></td>
+                        <td className="td-Empty"></td>
+                        <td className="td-lightblue">
+                          <p>Bella</p>
+                          <p>People:4</p>
+                        </td>
+                        <td className="td-Empty"></td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
