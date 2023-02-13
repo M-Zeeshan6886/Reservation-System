@@ -187,9 +187,9 @@
             background-color: lightcyan;
             &>table{
               width: 100%;
-              background-color: palegoldenrod;
+              // background-color: palegoldenrod;
               &>thead{
-               background-color: #f5ceff;
+              //  background-color: #f5ceff;
                 &>th{
                   // display: flex;
                   // flex-direction: row;
@@ -199,7 +199,19 @@ font-weight: 700;
 font-size: 1.4rem;
 line-height: 21px;  
 color: #635C5C;
-                  background-color: aqua;
+                  // background-color: aqua;
+                }
+              }
+              &>tbody{
+                border: 1px solid lightgrey;
+                &>tr{
+                  &>td{
+                    padding: 1rem .5rem;
+                    &>p{
+                      color: #635C5C;
+                      font-weight: 700;
+                    }
+                  }
                 }
               }
             }
@@ -235,4 +247,22 @@ color: #635C5C;
     width: 5%;
     margin-left: 1rem;
   }
+}
+
+
+.td-green{
+  background: #A3F394;
+border: 1px solid  #6EE481;
+}
+.td-pink{
+  background: #FCACAC;
+border: 1px solid #E5E5E5;
+}
+.td-lightyallow{
+  background: #FFF9C0;
+border: 1px solid #E5E5E5;
+}
+.td-lightblue{
+  background: #CCF6FF;
+border: 1px solid #E5E5E5;
 }

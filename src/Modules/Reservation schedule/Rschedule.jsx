@@ -60,13 +60,44 @@ const Rschedule = () => {
                       <th>10:30 - 11:00 AM</th>
                       <th>11:00 - 11:30 AM</th>
                       <th>11:30 - 12:00 AM</th>
-                      <th className="th-arrow">12:00 - 12:30 AM
+                      <th className="th-arrow">
+                        12:00 - 12:30 AM
                         <img src={arrowRight} alt="arrow" />
                       </th>
                     </thead>
                     <tbody>
                       <tr>
-                        <td></td>
+                        <td className="td-green">
+                          <p>Alice</p>
+                          <p>People:2</p>
+                        </td>
+                        <td className="td-pink">
+                          <p>Bella</p>
+                          <p>People:4</p>
+                        </td>
+                        <td className="td-lightyallow">
+                          <p>Bella</p>
+                          <p>People:4</p>
+                        </td>
+                        <td className="td-lightblue">
+                          <p>Bella</p>
+                          <p>People:4</p>
+                        </td>
+
+                        <td className="td-lightblue">
+                          <p>Bella</p>
+                          <p>People:4</p>
+                        </td>
+
+                        <td className="td-lightblue">
+                          <p>Bella</p>
+                          <p>People:4</p>
+                        </td>
+
+                        <td className="td-lightblue">
+                          <p>Bella</p>
+                          <p>People:4</p>
+                        </td>
                       </tr>
                     </tbody>
                   </table>
