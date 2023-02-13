@@ -188,8 +188,13 @@ const Rschedule = () => {
                   </table>
                 </div>
               </div>
-              <div className="page-container-content-right-content-row3"></div>
-              <div className="page-container-content-right-content-row4"></div>
+              <div className="page-container-content-right-content-row3">
+                <ClrDiv code=" #FCB96B" text="Pending" />
+                <ClrDiv code="#93F8FF" text="Deposited" />
+                <ClrDiv code="#FFF493" text="Waiting payment" />
+                <ClrDiv code="#A3F394" text="Finished" />
+                <ClrDiv code="#FCACAC" text="Cancelled" />
+              </div>
             </div>
           </div>
         </div>
@@ -199,3 +204,15 @@ const Rschedule = () => {
 };
 
 export default Rschedule;
+
+const ClrDiv = ({ code, text }) => {
+  return (
+    <div className="clrdiv">
+      <div
+        className="clrdiv-clrBox"
+        style={{ backgroundColor: `${code}` }}
+      ></div>
+      <p> {text} </p>
+    </div>
+  );
+};

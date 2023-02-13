@@ -5,7 +5,7 @@
   width: 100%;
   height: auto;
   //   padding: 0.5rem 0rem;
-  //   background-color: plum;
+    // background-color: plum;
   &-content {
     width: 100%;
     height: auto;
@@ -15,20 +15,21 @@
     &-left {
       width: 20%;
       height: auto;
+      border-right:1px solid lightgray ;
       //   padding: 0.5rem 0rem;
-      //   background-color: lightgreen;
+        // background-color: lightgreen;
     }
     &-right {
       width: 80%;
       height: auto;
       // padding: 0.5rem 0rem;
-      background-color: lightsalmon;
+      background-color: white;
       &-content {
         width: 95%;
         height: auto;
         margin: auto;
         padding: 0.5rem 0rem;
-        background-color: purple;
+        background: #FFFFFF;
         &-row {
           width: 100%;
           height: auto;
@@ -37,7 +38,7 @@
           align-items: center;
           justify-content: space-between;
           // padding: 0.5rem 0rem;
-          background-color: lightcyan;
+          // background-color: lightcyan;
           & > h1 {
             font-family: "Alegreya";
             font-style: normal;
@@ -49,6 +50,7 @@
           &-bar {
             display: flex;
             align-items: center;
+            justify-content: right;
             // background-color: aqua;
 
             & > input {
@@ -86,9 +88,10 @@
         &-row1 {
           width: 100%;
           height: auto;
+          margin-top: 3rem;
           // padding: 0.5rem 0rem;
           // display: flex;
-          background-color: pink;
+          // background-color: pink;
           &-content {
             width: 70%;
             height: auto;
@@ -178,13 +181,14 @@
         &-row2{
           width: 100%;
           height: auto;
-          padding: .5rem 0rem;
-          background-color: palevioletred;
+          margin-top:.5rem ;
+          padding: 1rem 0rem;
+          // background-color: palevioletred;
           &-content{
             width: 100%;
             height: auto;
-            padding: .5rem 0rem;
-            background-color: lightcyan;
+            // padding: .5rem 0rem;
+            // background-color: lightcyan;
             &>table{
               width: 100%;
               
@@ -219,6 +223,15 @@ color: #635C5C;
             }
           }
         }
+        &-row3{
+          width: 70%;
+          height: auto;
+          // padding: .5rem 0rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          // background-color: red;
+        }
       }
     }
   }
@@ -248,6 +261,7 @@ color: #635C5C;
   &>img{
     width: 5%;
     margin-left: 1rem;
+    margin-right: -3rem;
   }
 }
 
@@ -276,4 +290,27 @@ border: 1px solid #E5E5E5;
   height: 7.5vh;
   background: #FAFAFA;
 border: 1px solid #E5E5E5;
+}
+
+.clrdiv{
+  width: auto;
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+  // background-color: #CCF6FF;
+  &-clrBox{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    // background-color: #6EE481;
+  }
+  &>p{
+    font-family: 'Alegreya';
+font-style: normal;
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 24px;
+color: #000000;
+margin-left: 1rem;
+  }
 }
