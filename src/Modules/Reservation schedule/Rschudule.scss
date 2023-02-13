@@ -186,7 +186,7 @@
             padding: .5rem 0rem;
             background-color: lightcyan;
             &>table{
-              width: 99%;
+              width: 100%;
               
                 // border: 1px solid lightgrey;
                 border-collapse: collapse;
@@ -269,6 +269,11 @@ border: 1px solid #E5E5E5;
 border: 1px solid #E5E5E5;
 }
 .td-Empty{
+  background: #FAFAFA;
+border: 1px solid #E5E5E5;
+}
+.td-empty2{
+  height: 7.5vh;
   background: #FAFAFA;
 border: 1px solid #E5E5E5;
 }
