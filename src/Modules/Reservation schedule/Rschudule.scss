@@ -200,22 +200,33 @@
                 &>th{
                   // display: flex;
                   // flex-direction: row;
+                  padding: .5rem ;
+                  border-radius: 2rem;
                   font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
 font-size: 1.4rem;
 line-height: 21px;  
 color: #635C5C;
+cursor: pointer;
                   // background-color: aqua;
+                &:hover{
+                  background-color: #CCF6FF;
                 }
+                }
+
               }
               &>tbody{
+                cursor: pointer;
                 &>tr{
                   &>td{
                     padding: 1rem .5rem;
                     &>p{
                       color: #635C5C;
                       font-weight: 700;
+                    }
+                    &:hover{
+                      background-color: #CCF6FF;
                     }
                   }
                 }
